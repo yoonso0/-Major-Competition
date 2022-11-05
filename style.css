@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.main-video {
+    width: 100%;
+    height: 800px;
+    margin: 0px auto;
+    position: relative;
+  }
+video {
+    width: 100%;
+    filter: brightness(50%); 
+
+}
+#main-text {
+    position: absolute;
+    width: 100%;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:block;
+}
+.main-logo{
+    display: inline-block;
+    color: white;
+    margin: 80px 0 0 120px;
+}
+.main-link{
+    display: inline-block;
+    margin-left: 70px;
+}
+.main-link a{
+      padding: 80px 40px 40px 40px;
+      font-weight: 600;
+
+      font-size: 20px;
+      width: 80%;
+}
+.main-link a:hover{
+    background-color: rgb(140, 140, 255);
+    transition-duration: 0.5s;
+}
+header{
+    font-weight: 700;
+    width: 100%;
+    }
+section .first{
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(-45deg, #677fe8, #d76d77, #ffaf7b);
+    animation: gradient 15s ease infinite;
+    
+}
+    @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+.first{
+    color: white;
+    padding: 150px 0 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.first div{
+    width: 50%;
+    height: 500px;
+}
+.first h1{
+    font-size: 50px;
+    
+}
+.first b{
+    font-size: 22px;
+}
+.first h3{
+    font-weight: 400;
+}
+.first a{
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    font-size: 17px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    border-bottom: solid white 1px;
+}
+ 
+  
+  
+  
