@@ -62,14 +62,14 @@ header{
     font-size: 20px;
     padding: 20px;
 }
-.vocal{
+.third{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
     padding-top: 30px;
 }
-#V{
+#third{
     background-color: blue;
     border-radius: 50px;
     color: white;
@@ -79,16 +79,15 @@ header{
     border-radius: 50px;
     color: white;
 }
-.vocal img{
+.third img{
     box-sizing: border-box;
     width: 350px;
     height: 430px;
+    max-width: 100%;
 }
-.vocal img:hover{
+.third img:hover{
     opacity: 0.5;
-    
 }
-
 .section{
     margin-top: 1200px;
     width: 100%;

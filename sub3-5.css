@@ -62,14 +62,14 @@ header{
     font-size: 20px;
     padding: 20px;
 }
-.vocal{
+.rap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
     padding-top: 30px;
 }
-#V{
+#R{
     background-color: blue;
     border-radius: 50px;
     color: white;
@@ -79,12 +79,12 @@ header{
     border-radius: 50px;
     color: white;
 }
-.vocal img{
+.rap img{
     box-sizing: border-box;
     width: 350px;
-    height: 430px;
+    height: 470px;
 }
-.vocal img:hover{
+.rap img:hover{
     opacity: 0.5;
     
 }
